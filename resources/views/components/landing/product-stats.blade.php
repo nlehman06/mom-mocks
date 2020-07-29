@@ -6,17 +6,17 @@
          </h3>
       </div>
       <div class="flex flex-col items-center lg:flex-row lg:items-stretch lg:justify-around mt-16 w-full">
-         <x-landing.vertical-card image="/images/momentum/salmanac-tourmaline.jpg">
+         <x-landing.vertical-card image="/storage/images/momentum/salmanac-tourmaline.jpg">
             <p class="font-black leading-tight text-bunker-300 text-xl tracking-widest uppercase">Over</p>
             <p class="font-extrabold text-3xl lg:text-6xl text-bunker-500">1,000</p>
             <p class="capitalize font-light text-2xl lg:text-4xl text-bunker-400 tracking-wider">upholstery textile patterns</p>
          </x-landing.vertical-card>
-         <x-landing.vertical-card image="/images/wallcovering/salmeria-celestine.jpg">
+         <x-landing.vertical-card image="/storage/images/wallcovering/salmeria-celestine.jpg">
             <p class="font-black leading-tight text-bunker-300 text-xl tracking-widest uppercase">Over</p>
             <p class="font-extrabold text-3xl lg:text-6xl text-bunker-500">1,000</p>
             <p class="capitalize font-light text-2xl lg:text-4xl text-bunker-400 tracking-wider">wallcovering patterns</p>
          </x-landing.vertical-card>
-         <x-landing.vertical-card image="/images/loomsource/sblockstripe-mandarin.jpg">
+         <x-landing.vertical-card image="/storage/images/loomsource/sblockstripe-mandarin.jpg">
             <p class="font-black leading-tight text-bunker-300 text-xl tracking-widest uppercase">Over</p>
             <p class="font-extrabold text-3xl lg:text-6xl text-bunker-500">20,000</p>
             <p class="capitalize font-light text-2xl lg:text-4xl text-bunker-400 tracking-wider">colorways</p>

@@ -1,6 +1,6 @@
-<link rel="preload" href="/images/momentum-hero-pattern-lg.jpg" as="image">
-<link rel="preload" href="/images/loomsource-hero-pattern-lg.jpg" as="image">
-<link rel="preload" href="/images/wallcovering-hero-pattern-lg.jpg" as="image">
+<link rel="preload" href="/storage/images/momentum-hero-pattern-lg.jpg" as="image">
+<link rel="preload" href="/storage/images/loomsource-hero-pattern-lg.jpg" as="image">
+<link rel="preload" href="/storage/images/wallcovering-hero-pattern-lg.jpg" as="image">
 
 <div class="relative bg-bunker-500 overflow-hidden min-h-3xl"
      x-data="loadData()"
@@ -10,7 +10,7 @@
    </div>
    <div
         class="relative min-h-3xl lg:min-w-3xl xl:min-w-4xl lg:flex lg:items-center lg:justify-center lg:w-3/5 lg:pr-8 bg-no-repeat"
-        style="background-image: url('/images/angled-background.svg'); background-size: 100% auto; background-position: -5px -5px">
+        style="background-image: url('/storage/images/angled-background.svg'); background-size: 100% auto; background-position: -5px -5px">
       <div class="flex flex-col justify-center min-h-3xl">
          <main class="mt-28 lg:mt-0 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="text-center lg:text-left">
@@ -90,10 +90,10 @@
             currentHero: 0,
             timeoutId: null,
             heroPatterns: [
-               '/images/sina-hero-pattern-lg.jpg',
-               '/images/momentum-hero-pattern-lg.jpg',
-               '/images/loomsource-hero-pattern-lg.jpg',
-               '/images/wallcovering-hero-pattern-lg.jpg',
+               '/storage/images/sina-hero-pattern-lg.jpg',
+               '/storage/images/momentum-hero-pattern-lg.jpg',
+               '/storage/images/loomsource-hero-pattern-lg.jpg',
+               '/storage/images/wallcovering-hero-pattern-lg.jpg',
             ],
             incrementHero: function () {
                if(this.currentHero >= this.heroPatterns.length - 1) {
