@@ -7,6 +7,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <title>{{ $title }}</title>
+   <link rel="icon" href="/favicon.ico?v=2" />
+   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
    <!-- Fonts -->
    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
