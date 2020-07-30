@@ -20,6 +20,20 @@
                   <span class="text-bunker-500 text-xl uppercase" :class="{'hidden': !scrolled}">Momentum</span>
                </x-logo>
             </a>
+            <div class="relative rounded-full md:hidden">
+               <div class="absolute inset-y-0 left-0 pl-3 flex item-center pointer-events-none">
+                  <svg class="fill-current text-bunker-400 h-auto w-6" viewBox="0 0 20 20">
+                     <path fill-rule="evenodd"
+                           d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                           clip-rule="evenodd"></path>
+                  </svg>
+               </div>
+               <input
+                      type="text"
+                      name="search"
+                      :class="{'bg-white text-bunker-500': scrolled, 'bg-bunker-500 text-bunker-100': !scrolled}"
+                      class="form-input block w-full pl-10 sm:text-sm sm:leading-5 rounded-full border border-bunker-400">
+            </div>
             <div class="-mr-2 flex items-center md:hidden">
                <button type="button" @click="mobileMenu = true"
                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -87,6 +101,20 @@
                class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
                role="menuitem">Awards</a>
          </x-landing.nav-dropdown>
+         <div class="inline-block relative rounded-full">
+            <div class="absolute inset-y-0 left-0 pl-3 flex item-center pointer-events-none">
+               <svg class="fill-current text-bunker-400 h-auto w-6" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd"
+                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                        clip-rule="evenodd"></path>
+               </svg>
+            </div>
+            <input
+                   type="text"
+                   name="search"
+                   :class="{'bg-white text-bunker-500': scrolled, 'bg-bunker-500 text-bunker-100': !scrolled}"
+                   class="form-input block w-full pl-10 sm:text-sm sm:leading-5 rounded-full border border-bunker-400">
+         </div>
          <a href="{{ route('login') }}"
             class="ml-8 font-medium text-coral-600 hover:text-coral-200 transition duration-150 ease-in-out">Log
             in</a>

@@ -44,7 +44,7 @@
                <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div class="rounded-full shadow">
                      <a href="#"
-                        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-full text-white bg-gradient-r-coral hover:bg-gradient-l-coral focus:outline-none focus:border-coral-700 focus:shadow-outline-coral transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-full text-white bg-coral-500 hover:bg-coral-400 focus:outline-none focus:border-coral-700 focus:shadow-outline-coral transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                         Browse Products
                      </a>
                   </div>
