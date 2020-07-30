@@ -17,7 +17,7 @@
          <div class="flex items-center justify-between w-full md:w-auto">
             <a href="/" aria-label="Home">
                <x-logo class="h-12 w-auto text-coral-500">
-                  <span class="text-bunker-500 text-xl uppercase" :class="{'hidden': !scrolled}">Momentum</span>
+                  {{-- <span class="text-bunker-500 text-xl uppercase" :class="{'hidden': !scrolled}">Momentum</span> --}}
                </x-logo>
             </a>
             <div class="relative rounded-full md:hidden">
@@ -32,7 +32,7 @@
                       type="text"
                       name="search"
                       :class="{'bg-white text-bunker-500': scrolled, 'bg-bunker-500 text-bunker-100': !scrolled}"
-                      class="form-input block w-full pl-10 sm:text-sm sm:leading-5 rounded-full border border-bunker-400">
+                      class="form-input block w-full pl-10 text-xs sm:text-sm sm:leading-5 rounded-full border border-bunker-400">
             </div>
             <div class="-mr-2 flex items-center md:hidden">
                <button type="button" @click="mobileMenu = true"
