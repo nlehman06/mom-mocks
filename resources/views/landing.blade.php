@@ -15,6 +15,8 @@
 
    <x-landing.news />
 
+   <x-landing.five-clicks />
+
    <x-landing.feature />
 
    <x-landing.cta />

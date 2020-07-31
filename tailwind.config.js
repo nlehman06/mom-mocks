@@ -52,7 +52,8 @@ module.exports = {
          },
          linearGradientColors: {
             'coral': ['#CB6442', '#FAAA5E'],
-            'fade': ['#14161D', 'transparent']
+            'fade': ['#14161D', 'transparent'],
+            'white': ['#dad7d7', '#F1F1F3']
          },
          inset: {
             '-80': '-20rem',
