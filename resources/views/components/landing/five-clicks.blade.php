@@ -5,7 +5,7 @@
       </div>
       <div class="flex flex-col items-center lg:text-left text-center">
          <h3 class="text-4xl font-light text-bunker-500 mt-20 mb-12">A new mobile app that makes C.O.M.<br class="hidden xl:block"> as simple as 5 Clicks</h3>
-         <h4 class="mb-10 lg:mb-20 text-2xl text-coral-800">In grade. In Stock. In real time.</h4>
+         <h4 class="mb-10 lg:mb-20 text-xl text-coral-600">In grade. In Stock. In real time.</h4>
          <a href="https://apps.apple.com/us/app/5-clicks/id879734448" target="_blank">
             <img src="/storage/images/app-store.svg" class="h-10 lg:h-20 w-auto mb-0 lg:mb-32">
          </a>

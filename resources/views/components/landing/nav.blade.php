@@ -116,11 +116,11 @@
                    class="form-input block w-full pl-10 sm:text-sm sm:leading-5 rounded-full border border-bunker-400">
          </div>
          <a href="{{ route('login') }}"
-            class="ml-8 font-medium text-coral-600 hover:text-coral-200 transition duration-150 ease-in-out">Log
+            class="ml-6 font-medium text-coral-600 hover:text-coral-200 transition duration-150 ease-in-out">Log
             in</a>
       </div>
    </nav>
-   <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+   <div class="absolute top-0 inset-x-0 transition transform origin-top-right md:hidden"
         x-show="mobileMenu"
         @click.away="mobileMenu = false"
         x-cloak
@@ -131,7 +131,7 @@
         x-transition:leave-start="opacity-100 scale-100"
         x-transition:leave-end="opacity-0 scale-95">
       <div class="rounded-lg shadow-md">
-         <div class="rounded-lg bg-white shadow-xs overflow-hidden"
+         <div class="bg-white shadow-xs overflow-auto h-screen"
               role="menu"
               aria-orientation="vertical"
               aria-labelledby="main-menu">
@@ -151,15 +151,29 @@
                </div>
             </div>
             <div class="px-2 pt-2 pb-3">
-               <a href="#"
-                  class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                  role="menuitem">Products</a>
-               <a href="#"
-                  class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                  role="menuitem">Brands</a>
-               <a href="#"
-                  class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                  role="menuitem">Company</a>
+               <x-landing.mobile-nav-section title="Products">
+                  <a href="#" class="lg:block mt-2 text-bunker-400 text-sm hover:text-bunker-300">Textiles</a>
+                  <a href="#" class="lg:block mt-2 text-bunker-400 text-sm hover:text-bunker-300">Wallcovering</a>
+                  <a href="#" class="lg:block mt-2 text-bunker-400 text-sm hover:text-bunker-300">Privacy Curtain</a>
+                  <a href="#" class="lg:block mt-2 text-bunker-400 text-sm hover:text-bunker-300">Drapery</a>
+               </x-landing.mobile-nav-section>
+               <x-landing.mobile-nav-section title="Brands">
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Sina Pearson</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Momentum Textiles</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">LoomSource</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Source One</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Lanark</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Versa</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Tower</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Stacy Garcia</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Studio Source</a>
+               </x-landing.mobile-nav-section>
+               <x-landing.mobile-nav-section title="Company">
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Who we are</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">News</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Awards</a>
+                     <a href="#" class="mt-2 text-bunker-400 text-sm hover:text-bunker-300">Careers</a>
+               </x-landing.mobile-nav-section>
             </div>
             <div>
                <a href="{{ route('login') }}"
